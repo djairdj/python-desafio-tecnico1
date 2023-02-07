@@ -37,7 +37,7 @@ uvicorn main:app --reload
 ```
 Após o comando acima ser executado com sucesso a API estará sendo executada e escutando requisições na porta 8000 da máquina "[localhost](http://127.0.0.1:8000/docs#/default)" e por meio da interface web da FastAPI é possível executar também consultas e comandos de inserção por ela.
 
-Caso queira executar umas operações via terminal, deixei um arquivo chamado "[terminal_crud](./terminal_crud.py)", onde dá pra navegar também nas opções que a API oferece.<br>
+Caso queira executar umas operações via terminal, deixei um arquivo chamado "[terminal_crud](./terminal_crud.py)", onde dá pra navegar também nas opções que a API oferece, basta executá-lo.<br>
 
 Nos quesitos solicitados com relação a configuração do banco de dados foram executados os seguintes passos:
 
