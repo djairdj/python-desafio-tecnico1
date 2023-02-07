@@ -1,4 +1,4 @@
-# Criando uma base de dados e também uma API.
+# Criando uma base de dados e também uma API
 ## Objetivos
 - [x] O objetivo desse código é desenvolver uma API que integra com um banco de dados SQL para persistência dos dados.
 
@@ -15,19 +15,19 @@ Também é requerida a instalação via executável (Python e Postman) e via lin
 - [Python 3.11](https://www.python.org/downloads/)
 - [Postman](https://www.postman.com/downloads/)
 ```sh
-- pip install pyodbc
+pip install pyodbc
 ```
 ```sh
-- pip install pydantic
+pip install pydantic
 ```
 ```sh
-- pip install Faker==0.7.4
+pip install Faker==0.7.4
 ```
 ```sh
-- pip install fastapi
+pip install fastapi
 ```
 ```sh
-- pip install uvicorn
+pip install uvicorn
 ```
 
 ## Executando a aplicação
