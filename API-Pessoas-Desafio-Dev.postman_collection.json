@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "e36f7eae-2636-4394-b702-34d5ccacfb19",
+		"name": "API-Pessoas-Desafio-Dev",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "10886534"
+	},
+	"item": [
+		{
+			"name": "get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000/"
+			},
+			"response": []
+		},
+		{
+			"name": "post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Maria Betânia\",\r\n  \"data_nasc\": \"1970-12-16\",\r\n  \"salario\": 13050,\r\n  \"observacao\": \"Cantora ou mamante Ruanet?\",\r\n  \"nome_mae\": \"Cristina Franco\",\r\n  \"nome_pai\": \"Eric Franco\",\r\n  \"cpf\": \"12238874294\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/"
+			},
+			"response": []
+		},
+		{
+			"name": "get_id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000/5307"
+			},
+			"response": []
+		},
+		{
+			"name": "put_id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Maria Joaquina\",\r\n    \"data_nasc\": \"1997-02-06\",\r\n    \"salario\": 8000,\r\n    \"observacao\": \"Tema de música da Bahia.\",\r\n    \"nome_mae\": \"Augusta Amaral\",\r\n    \"nome_pai\": \"Nelson Amaral\",\r\n    \"cpf\": \"18234213655\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/3167"
+			},
+			"response": []
+		},
+		{
+			"name": "del_id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://127.0.0.1:8000/7395"
+			},
+			"response": []
+		}
+	]
+}
